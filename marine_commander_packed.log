@@ -1,0 +1,1254 @@
+2019-09-29 12:54:08,068 - root - DEBUG - Reading config...
+2019-09-29 12:54:08,069 - root - DEBUG - t: {
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 107,
+        "Y": 85,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 141,
+        "Y": 85,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 188,
+        "Y": 85,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 223,
+        "Y": 85,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Activity": {
+    "Calories": {
+      "TopLeftX": 70,
+      "TopLeftY": 179,
+      "BottomRightX": 134,
+      "BottomRightY": 190,
+      "Alignment": "TopCenter",
+      "Spacing": 0,
+      "ImageIndex": 12,
+      "ImagesCount": 10
+    },
+    "Pulse": {
+      "TopLeftX": 77,
+      "TopLeftY": 157,
+      "BottomRightX": 126,
+      "BottomRightY": 170,
+      "Alignment": "TopCenter",
+      "Spacing": 0,
+      "ImageIndex": 22,
+      "ImagesCount": 10
+    },
+    "Distance": {
+      "Number": {
+        "TopLeftX": 154,
+        "TopLeftY": 235,
+        "BottomRightX": 205,
+        "BottomRightY": 246,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "ImageIndex": 12,
+        "ImagesCount": 10
+      },
+      "SuffixImageIndex": 32,
+      "DecimalPointImageIndex": 33
+    },
+    "Steps": {
+      "Step": {
+        "TopLeftX": 148,
+        "TopLeftY": 256,
+        "BottomRightX": 212,
+        "BottomRightY": 269,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "ImageIndex": 22,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Date": {
+    "MonthAndDay": {
+      "OneLine": {
+        "Number": {
+          "TopLeftX": 231,
+          "TopLeftY": 172,
+          "BottomRightX": 283,
+          "BottomRightY": 186,
+          "Alignment": "TopCenter",
+          "Spacing": 0,
+          "ImageIndex": 22,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 34
+      },
+      "TwoDigitsMonth": true,
+      "TwoDigitsDay": true
+    },
+    "WeekDay": {
+      "X": 211,
+      "Y": 134,
+      "ImageIndex": 35,
+      "ImagesCount": 7
+    }
+  },
+  "StepsProgress": {
+    "Circle": {
+      "CenterX": 180,
+      "CenterY": 257,
+      "RadiusX": 36,
+      "RadiusY": 36,
+      "StartAngle": 202,
+      "EndAngle": 338,
+      "Width": 5,
+      "Color": "0x00059BE1",
+      "Flatness": 0
+    }
+  },
+  "Status": {
+    "DoNotDisturb": {
+      "Coordinates": {
+        "X": 201,
+        "Y": 65
+      },
+      "ImageIndexOn": 42
+    },
+    "Alarm": {
+      "Coordinates": {
+        "X": 147,
+        "Y": 65
+      },
+      "ImageIndexOn": 43
+    },
+    "Lock": {
+      "Coordinates": {
+        "X": 175,
+        "Y": 64
+      },
+      "ImageIndexOn": 44
+    }
+  },
+  "Battery": {
+    "Text": {
+      "TopLeftX": 218,
+      "TopLeftY": 245,
+      "BottomRightX": 245,
+      "BottomRightY": 256,
+      "Alignment": "TopRight",
+      "Spacing": 0,
+      "ImageIndex": 12,
+      "ImagesCount": 10
+    },
+    "Images": {
+      "X": 180,
+      "Y": 219,
+      "ImageIndex": 45,
+      "ImagesCount": 11
+    }
+  },
+  "AnalogDialFace": {
+    "Hours": {
+      "unknown1": 0,
+      "unknown2": 0,
+      "unknown3": {
+        "X": 0,
+        "Y": 0
+      },
+      "unknown4": {
+        "X": 0,
+        "Y": 0
+      },
+      "CenterImage": {
+        "X": 17,
+        "Y": 126,
+        "ImageIndex": 56
+      }
+    },
+    "Minutes": {
+      "unknown1": 0,
+      "unknown2": 0,
+      "unknown3": {
+        "X": 0,
+        "Y": 0
+      },
+      "unknown4": {
+        "X": 0,
+        "Y": 0
+      },
+      "CenterImage": {
+        "X": 16,
+        "Y": 153,
+        "ImageIndex": 57
+      }
+    },
+    "Seconds": {
+      "unknown1": 0,
+      "unknown2": 0,
+      "unknown3": {
+        "X": 0,
+        "Y": 0
+      },
+      "unknown4": {
+        "X": 0,
+        "Y": 0
+      },
+      "CenterImage": {
+        "X": 12,
+        "Y": 166,
+        "ImageIndex": 58
+      }
+    }
+  }
+}
+2019-09-29 12:54:08,069 - root - DEBUG - Reading referenced images from '.'
+2019-09-29 12:54:08,069 - root - DEBUG - Loading resources for 2 '<class 'watchFaceParser.elements.background.Background'>'
+2019-09-29 12:54:08,069 - root - DEBUG - Loading resources for 2.1 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2019-09-29 12:54:08,069 - root - DEBUG - Loading image 0...
+2019-09-29 12:54:08,087 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,087 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 48636
+2019-09-29 12:54:08,087 - root - DEBUG - Loading resources for 2.3 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2019-09-29 12:54:08,087 - root - DEBUG - Loading image 1...
+2019-09-29 12:54:08,087 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,088 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 39880
+2019-09-29 12:54:08,088 - root - DEBUG - Loading resources for 3 '<class 'watchFaceParser.elements.time.Time'>'
+2019-09-29 12:54:08,088 - root - DEBUG - Loading resources for 3.1 '<class 'watchFaceParser.elements.timeElements.twoDigits.TwoDigits'>'
+2019-09-29 12:54:08,088 - root - DEBUG - Loading resources for 3.1.1 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2019-09-29 12:54:08,088 - root - DEBUG - Loading image 2...
+2019-09-29 12:54:08,088 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,088 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1807
+2019-09-29 12:54:08,088 - root - DEBUG - Loading image 3...
+2019-09-29 12:54:08,088 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,088 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 584
+2019-09-29 12:54:08,089 - root - DEBUG - Loading image 4...
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1586
+2019-09-29 12:54:08,089 - root - DEBUG - Loading image 5...
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1643
+2019-09-29 12:54:08,089 - root - DEBUG - Loading image 6...
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1528
+2019-09-29 12:54:08,089 - root - DEBUG - Loading image 7...
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1584
+2019-09-29 12:54:08,089 - root - DEBUG - Loading image 8...
+2019-09-29 12:54:08,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1994
+2019-09-29 12:54:08,090 - root - DEBUG - Loading image 9...
+2019-09-29 12:54:08,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1340
+2019-09-29 12:54:08,090 - root - DEBUG - Loading image 10...
+2019-09-29 12:54:08,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2147
+2019-09-29 12:54:08,090 - root - DEBUG - Loading image 11...
+2019-09-29 12:54:08,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2064
+2019-09-29 12:54:08,090 - root - DEBUG - Loading resources for 3.1.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2019-09-29 12:54:08,090 - root - DEBUG - Loading resources for 3.2 '<class 'watchFaceParser.elements.timeElements.twoDigits.TwoDigits'>'
+2019-09-29 12:54:08,090 - root - DEBUG - Loading resources for 3.2.1 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2019-09-29 12:54:08,090 - root - DEBUG - Loading resources for 3.2.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2019-09-29 12:54:08,090 - root - DEBUG - Loading resources for 4 '<class 'watchFaceParser.elements.activity.Activity'>'
+2019-09-29 12:54:08,091 - root - DEBUG - Loading resources for 4.2 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2019-09-29 12:54:08,091 - root - DEBUG - Loading resources for 4.2.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2019-09-29 12:54:08,091 - root - DEBUG - Loading image 12...
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 371
+2019-09-29 12:54:08,091 - root - DEBUG - Loading image 13...
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 151
+2019-09-29 12:54:08,091 - root - DEBUG - Loading image 14...
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 333
+2019-09-29 12:54:08,091 - root - DEBUG - Loading image 15...
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,091 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 309
+2019-09-29 12:54:08,092 - root - DEBUG - Loading image 16...
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 348
+2019-09-29 12:54:08,092 - root - DEBUG - Loading image 17...
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 295
+2019-09-29 12:54:08,092 - root - DEBUG - Loading image 18...
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 319
+2019-09-29 12:54:08,092 - root - DEBUG - Loading image 19...
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 287
+2019-09-29 12:54:08,092 - root - DEBUG - Loading image 20...
+2019-09-29 12:54:08,093 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,093 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 327
+2019-09-29 12:54:08,093 - root - DEBUG - Loading image 21...
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 332
+2019-09-29 12:54:08,094 - root - DEBUG - Loading resources for 4.3 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2019-09-29 12:54:08,094 - root - DEBUG - Loading resources for 4.3.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2019-09-29 12:54:08,094 - root - DEBUG - Loading image 22...
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 476
+2019-09-29 12:54:08,094 - root - DEBUG - Loading image 23...
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 175
+2019-09-29 12:54:08,094 - root - DEBUG - Loading image 24...
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 480
+2019-09-29 12:54:08,094 - root - DEBUG - Loading image 25...
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 454
+2019-09-29 12:54:08,095 - root - DEBUG - Loading image 26...
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 416
+2019-09-29 12:54:08,095 - root - DEBUG - Loading image 27...
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 465
+2019-09-29 12:54:08,095 - root - DEBUG - Loading image 28...
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 521
+2019-09-29 12:54:08,095 - root - DEBUG - Loading image 29...
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 426
+2019-09-29 12:54:08,096 - root - DEBUG - Loading image 30...
+2019-09-29 12:54:08,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 557
+2019-09-29 12:54:08,096 - root - DEBUG - Loading image 31...
+2019-09-29 12:54:08,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 532
+2019-09-29 12:54:08,096 - root - DEBUG - Loading resources for 4.4 '<class 'watchFaceParser.elements.activityElements.distance.Distance'>'
+2019-09-29 12:54:08,096 - root - DEBUG - Loading resources for 4.4.1 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2019-09-29 12:54:08,096 - root - DEBUG - Loading resources for 4.4.1.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2019-09-29 12:54:08,096 - root - DEBUG - Loading image 32...
+2019-09-29 12:54:08,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 12
+2019-09-29 12:54:08,096 - root - DEBUG - Loading image 33...
+2019-09-29 12:54:08,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,097 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 63
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 4.5 '<class 'watchFaceParser.elements.activityElements.formattedNumber.FormattedNumber'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 4.5.1 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 4.5.1.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5 '<class 'watchFaceParser.elements.date.Date'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5.1 '<class 'watchFaceParser.elements.dateElements.monthAndDay.MonthAndDay'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5.1.2 '<class 'watchFaceParser.elements.dateElements.oneLineMonthAndDay.OneLineMonthAndDay'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5.1.2.1 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5.1.2.1.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading image 34...
+2019-09-29 12:54:08,097 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,097 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 212
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5.1.3 'bool'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5.1.4 'bool'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading resources for 5.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2019-09-29 12:54:08,097 - root - DEBUG - Loading image 35...
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10798
+2019-09-29 12:54:08,098 - root - DEBUG - Loading image 36...
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10833
+2019-09-29 12:54:08,098 - root - DEBUG - Loading image 37...
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10825
+2019-09-29 12:54:08,098 - root - DEBUG - Loading image 38...
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10680
+2019-09-29 12:54:08,098 - root - DEBUG - Loading image 39...
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,098 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10848
+2019-09-29 12:54:08,099 - root - DEBUG - Loading image 40...
+2019-09-29 12:54:08,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10868
+2019-09-29 12:54:08,099 - root - DEBUG - Loading image 41...
+2019-09-29 12:54:08,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10825
+2019-09-29 12:54:08,099 - root - DEBUG - Loading resources for 7 '<class 'watchFaceParser.elements.stepsProgress.StepsProgress'>'
+2019-09-29 12:54:08,099 - root - DEBUG - Loading resources for 7.3 '<class 'watchFaceParser.elements.basicElements.circleScale.CircleScale'>'
+2019-09-29 12:54:08,099 - root - DEBUG - Loading resources for 7.3.8 '<class 'watchFaceParser.models.color.Color'>'
+2019-09-29 12:54:08,099 - root - DEBUG - Loading resources for 8 '<class 'watchFaceParser.elements.status.Status'>'
+2019-09-29 12:54:08,099 - root - DEBUG - Loading resources for 8.1 '<class 'watchFaceParser.elements.statusElements.switch.Switch'>'
+2019-09-29 12:54:08,099 - root - DEBUG - Loading resources for 8.1.1 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,099 - root - DEBUG - Loading image 42...
+2019-09-29 12:54:08,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 344
+2019-09-29 12:54:08,099 - root - DEBUG - Loading resources for 8.3 '<class 'watchFaceParser.elements.statusElements.switch.Switch'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading resources for 8.3.1 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading image 43...
+2019-09-29 12:54:08,100 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,100 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 373
+2019-09-29 12:54:08,100 - root - DEBUG - Loading resources for 8.4 '<class 'watchFaceParser.elements.statusElements.switch.Switch'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading resources for 8.4.1 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading image 44...
+2019-09-29 12:54:08,100 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,100 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 412
+2019-09-29 12:54:08,100 - root - DEBUG - Loading resources for 9 '<class 'watchFaceParser.elements.battery.Battery'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading resources for 9.1 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading resources for 9.1.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading resources for 9.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2019-09-29 12:54:08,100 - root - DEBUG - Loading image 45...
+2019-09-29 12:54:08,100 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 12
+2019-09-29 12:54:08,101 - root - DEBUG - Loading image 46...
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 340
+2019-09-29 12:54:08,101 - root - DEBUG - Loading image 47...
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 531
+2019-09-29 12:54:08,101 - root - DEBUG - Loading image 48...
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 722
+2019-09-29 12:54:08,101 - root - DEBUG - Loading image 49...
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 886
+2019-09-29 12:54:08,101 - root - DEBUG - Loading image 50...
+2019-09-29 12:54:08,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1002
+2019-09-29 12:54:08,102 - root - DEBUG - Loading image 51...
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1103
+2019-09-29 12:54:08,102 - root - DEBUG - Loading image 52...
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1259
+2019-09-29 12:54:08,102 - root - DEBUG - Loading image 53...
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1453
+2019-09-29 12:54:08,102 - root - DEBUG - Loading image 54...
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1624
+2019-09-29 12:54:08,102 - root - DEBUG - Loading image 55...
+2019-09-29 12:54:08,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1691
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10 '<class 'watchFaceParser.elements.analogDialFace.AnalogDialFace'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.1 '<class 'watchFaceParser.elements.analogDialFaceElements.clockHand.ClockHand'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.1.3 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.1.4 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.1.5 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading image 56...
+2019-09-29 12:54:08,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2048
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.2 '<class 'watchFaceParser.elements.analogDialFaceElements.clockHand.ClockHand'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.2.3 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.2.4 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading resources for 10.2.5 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2019-09-29 12:54:08,103 - root - DEBUG - Loading image 57...
+2019-09-29 12:54:08,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2009
+2019-09-29 12:54:08,104 - root - DEBUG - Loading resources for 10.3 '<class 'watchFaceParser.elements.analogDialFaceElements.clockHand.ClockHand'>'
+2019-09-29 12:54:08,104 - root - DEBUG - Loading resources for 10.3.3 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,104 - root - DEBUG - Loading resources for 10.3.4 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2019-09-29 12:54:08,104 - root - DEBUG - Loading resources for 10.3.5 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2019-09-29 12:54:08,104 - root - DEBUG - Loading image 58...
+2019-09-29 12:54:08,104 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2019-09-29 12:54:08,104 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1450
+2019-09-29 12:54:08,104 - root - DEBUG - Building parameters for watch face...
+2019-09-29 12:54:08,104 - root - DEBUG - 2.1.1 'X': 0
+2019-09-29 12:54:08,104 - root - DEBUG - 2.1.2 'Y': 0
+2019-09-29 12:54:08,104 - root - DEBUG - 2.1.3 'ImageIndex': 0
+2019-09-29 12:54:08,104 - root - DEBUG - 2.1 'Image'
+2019-09-29 12:54:08,104 - root - DEBUG - 2.3.1 'X': 0
+2019-09-29 12:54:08,104 - root - DEBUG - 2.3.2 'Y': 0
+2019-09-29 12:54:08,104 - root - DEBUG - 2.3.3 'ImageIndex': 1
+2019-09-29 12:54:08,104 - root - DEBUG - 2.3 'Preview'
+2019-09-29 12:54:08,104 - root - DEBUG - 2 'Background'
+2019-09-29 12:54:08,104 - root - DEBUG - 3.1.1.1 'X': 107
+2019-09-29 12:54:08,104 - root - DEBUG - 3.1.1.2 'Y': 85
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.1.3 'ImageIndex': 2
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.1.4 'ImagesCount': 10
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.1 'Tens'
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.2.1 'X': 141
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.2.2 'Y': 85
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.2.3 'ImageIndex': 2
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.2.4 'ImagesCount': 10
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1.2 'Ones'
+2019-09-29 12:54:08,105 - root - DEBUG - 3.1 'Hours'
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.1.1 'X': 188
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.1.2 'Y': 85
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.1.3 'ImageIndex': 2
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.1.4 'ImagesCount': 10
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.1 'Tens'
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.2.1 'X': 223
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.2.2 'Y': 85
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.2.3 'ImageIndex': 2
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.2.4 'ImagesCount': 10
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2.2 'Ones'
+2019-09-29 12:54:08,105 - root - DEBUG - 3.2 'Minutes'
+2019-09-29 12:54:08,105 - root - DEBUG - 3 'Time'
+2019-09-29 12:54:08,105 - root - DEBUG - 4.2.1 'TopLeftX': 70
+2019-09-29 12:54:08,105 - root - DEBUG - 4.2.2 'TopLeftY': 179
+2019-09-29 12:54:08,105 - root - DEBUG - 4.2.3 'BottomRightX': 134
+2019-09-29 12:54:08,105 - root - DEBUG - 4.2.4 'BottomRightY': 190
+2019-09-29 12:54:08,106 - root - DEBUG - 4.2.5 'Alignment': 24
+2019-09-29 12:54:08,106 - root - DEBUG - 4.2.6 'Spacing': 0
+2019-09-29 12:54:08,106 - root - DEBUG - 4.2.7 'ImageIndex': 12
+2019-09-29 12:54:08,106 - root - DEBUG - 4.2.8 'ImagesCount': 10
+2019-09-29 12:54:08,106 - root - DEBUG - 4.2 'Calories'
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.1 'TopLeftX': 77
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.2 'TopLeftY': 157
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.3 'BottomRightX': 126
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.4 'BottomRightY': 170
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.5 'Alignment': 24
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.6 'Spacing': 0
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.7 'ImageIndex': 22
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3.8 'ImagesCount': 10
+2019-09-29 12:54:08,106 - root - DEBUG - 4.3 'Pulse'
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.1 'TopLeftX': 154
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.2 'TopLeftY': 235
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.3 'BottomRightX': 205
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.4 'BottomRightY': 246
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.5 'Alignment': 24
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.6 'Spacing': 0
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.7 'ImageIndex': 12
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1.8 'ImagesCount': 10
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.1 'Number'
+2019-09-29 12:54:08,106 - root - DEBUG - 4.4.2 'SuffixImageIndex': 32
+2019-09-29 12:54:08,107 - root - DEBUG - 4.4.3 'DecimalPointImageIndex': 33
+2019-09-29 12:54:08,107 - root - DEBUG - 4.4 'Distance'
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.1 'TopLeftX': 148
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.2 'TopLeftY': 256
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.3 'BottomRightX': 212
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.4 'BottomRightY': 269
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.5 'Alignment': 24
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.6 'Spacing': 0
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.7 'ImageIndex': 22
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1.8 'ImagesCount': 10
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5.1 'Step'
+2019-09-29 12:54:08,107 - root - DEBUG - 4.5 'Steps'
+2019-09-29 12:54:08,107 - root - DEBUG - 4 'Activity'
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.1 'TopLeftX': 231
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.2 'TopLeftY': 172
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.3 'BottomRightX': 283
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.4 'BottomRightY': 186
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.5 'Alignment': 24
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.6 'Spacing': 0
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.7 'ImageIndex': 22
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1.8 'ImagesCount': 10
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.1 'Number'
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2.2 'DelimiterImageIndex': 34
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.2 'OneLine'
+2019-09-29 12:54:08,107 - root - DEBUG - 5.1.3 'TwoDigitsMonth': 1
+2019-09-29 12:54:08,108 - root - DEBUG - 5.1.4 'TwoDigitsDay': 1
+2019-09-29 12:54:08,108 - root - DEBUG - 5.1 'MonthAndDay'
+2019-09-29 12:54:08,108 - root - DEBUG - 5.2.1 'X': 211
+2019-09-29 12:54:08,108 - root - DEBUG - 5.2.2 'Y': 134
+2019-09-29 12:54:08,108 - root - DEBUG - 5.2.3 'ImageIndex': 35
+2019-09-29 12:54:08,108 - root - DEBUG - 5.2.4 'ImagesCount': 7
+2019-09-29 12:54:08,108 - root - DEBUG - 5.2 'WeekDay'
+2019-09-29 12:54:08,108 - root - DEBUG - 5 'Date'
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.1 'CenterX': 180
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.2 'CenterY': 257
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.3 'RadiusX': 36
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.4 'RadiusY': 36
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.5 'StartAngle': 202
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.6 'EndAngle': 338
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.7 'Width': 5
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.8 'Color': 367585
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3.9 'Flatness': 0
+2019-09-29 12:54:08,108 - root - DEBUG - 7.3 'Circle'
+2019-09-29 12:54:08,108 - root - DEBUG - 7 'StepsProgress'
+2019-09-29 12:54:08,108 - root - DEBUG - 8.1.1.1 'X': 201
+2019-09-29 12:54:08,108 - root - DEBUG - 8.1.1.2 'Y': 65
+2019-09-29 12:54:08,108 - root - DEBUG - 8.1.1 'Coordinates'
+2019-09-29 12:54:08,108 - root - DEBUG - 8.1.2 'ImageIndexOn': 42
+2019-09-29 12:54:08,108 - root - DEBUG - 8.1 'DoNotDisturb'
+2019-09-29 12:54:08,108 - root - DEBUG - 8.3.1.1 'X': 147
+2019-09-29 12:54:08,109 - root - DEBUG - 8.3.1.2 'Y': 65
+2019-09-29 12:54:08,109 - root - DEBUG - 8.3.1 'Coordinates'
+2019-09-29 12:54:08,109 - root - DEBUG - 8.3.2 'ImageIndexOn': 43
+2019-09-29 12:54:08,109 - root - DEBUG - 8.3 'Alarm'
+2019-09-29 12:54:08,109 - root - DEBUG - 8.4.1.1 'X': 175
+2019-09-29 12:54:08,109 - root - DEBUG - 8.4.1.2 'Y': 64
+2019-09-29 12:54:08,109 - root - DEBUG - 8.4.1 'Coordinates'
+2019-09-29 12:54:08,109 - root - DEBUG - 8.4.2 'ImageIndexOn': 44
+2019-09-29 12:54:08,109 - root - DEBUG - 8.4 'Lock'
+2019-09-29 12:54:08,109 - root - DEBUG - 8 'Status'
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.1 'TopLeftX': 218
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.2 'TopLeftY': 245
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.3 'BottomRightX': 245
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.4 'BottomRightY': 256
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.5 'Alignment': 20
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.6 'Spacing': 0
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.7 'ImageIndex': 12
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1.8 'ImagesCount': 10
+2019-09-29 12:54:08,109 - root - DEBUG - 9.1 'Text'
+2019-09-29 12:54:08,109 - root - DEBUG - 9.2.1 'X': 180
+2019-09-29 12:54:08,109 - root - DEBUG - 9.2.2 'Y': 219
+2019-09-29 12:54:08,109 - root - DEBUG - 9.2.3 'ImageIndex': 45
+2019-09-29 12:54:08,109 - root - DEBUG - 9.2.4 'ImagesCount': 11
+2019-09-29 12:54:08,109 - root - DEBUG - 9.2 'Images'
+2019-09-29 12:54:08,109 - root - DEBUG - 9 'Battery'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.1 'unknown1': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.2 'unknown2': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.3.1 'X': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.3.2 'Y': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.3 'unknown3'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.4.1 'X': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.4.2 'Y': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.4 'unknown4'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.5.1 'X': 17
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.5.2 'Y': 126
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.5.3 'ImageIndex': 56
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1.5 'CenterImage'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.1 'Hours'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.1 'unknown1': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.2 'unknown2': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.3.1 'X': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.3.2 'Y': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.3 'unknown3'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.4.1 'X': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.4.2 'Y': 0
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.4 'unknown4'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.5.1 'X': 16
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.5.2 'Y': 153
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.5.3 'ImageIndex': 57
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2.5 'CenterImage'
+2019-09-29 12:54:08,110 - root - DEBUG - 10.2 'Minutes'
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.1 'unknown1': 0
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.2 'unknown2': 0
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.3.1 'X': 0
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.3.2 'Y': 0
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.3 'unknown3'
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.4.1 'X': 0
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.4.2 'Y': 0
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.4 'unknown4'
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.5.1 'X': 12
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.5.2 'Y': 166
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.5.3 'ImageIndex': 58
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3.5 'CenterImage'
+2019-09-29 12:54:08,111 - root - DEBUG - 10.3 'Seconds'
+2019-09-29 12:54:08,111 - root - DEBUG - 10 'AnalogDialFace'
+2019-09-29 12:54:08,111 - root - DEBUG - Generating previews...
+2019-09-29 12:54:08,112 - root - DEBUG - Generating states done...
+2019-09-29 12:54:08,133 - root - DEBUG - Generating static preview gen done...
+2019-09-29 12:54:08,167 - root - DEBUG - Generating static preview save done...
+2019-09-29 12:54:08,167 - root - DEBUG - Generating anim preview gen done...
+2019-09-29 12:54:08,305 - root - DEBUG - Writing watch face to './marine_commander_packed.bin'
+2019-09-29 12:54:08,305 - root - DEBUG - Encoding parameters...
+2019-09-29 12:54:08,305 - root - DEBUG - Parameter: 2
+2019-09-29 12:54:08,306 - root - DEBUG - 1 (0A):
+2019-09-29 12:54:08,306 - root - DEBUG - 	1 (08): 0 (00)
+2019-09-29 12:54:08,306 - root - DEBUG - 	2 (10): 0 (00)
+2019-09-29 12:54:08,306 - root - DEBUG - 	3 (18): 0 (00)
+2019-09-29 12:54:08,306 - root - DEBUG - 8 bytes
+2019-09-29 12:54:08,306 - root - DEBUG - 3 (1A):
+2019-09-29 12:54:08,306 - root - DEBUG - 	1 (08): 0 (00)
+2019-09-29 12:54:08,306 - root - DEBUG - 	2 (10): 0 (00)
+2019-09-29 12:54:08,306 - root - DEBUG - 	3 (18): 1 (01)
+2019-09-29 12:54:08,306 - root - DEBUG - 8 bytes
+2019-09-29 12:54:08,306 - root - DEBUG - Parameter: 3
+2019-09-29 12:54:08,306 - root - DEBUG - 1 (0A):
+2019-09-29 12:54:08,306 - root - DEBUG - 	1 (0A):
+2019-09-29 12:54:08,306 - root - DEBUG - 		1 (08): 107 (6B)
+2019-09-29 12:54:08,306 - root - DEBUG - 		2 (10): 85 (55)
+2019-09-29 12:54:08,306 - root - DEBUG - 		3 (18): 2 (02)
+2019-09-29 12:54:08,306 - root - DEBUG - 		4 (20): 10 (0A)
+2019-09-29 12:54:08,306 - root - DEBUG - 	10 bytes
+2019-09-29 12:54:08,306 - root - DEBUG - 	2 (12):
+2019-09-29 12:54:08,306 - root - DEBUG - 		1 (08): 141 (8D)
+2019-09-29 12:54:08,307 - root - DEBUG - 		2 (10): 85 (55)
+2019-09-29 12:54:08,307 - root - DEBUG - 		3 (18): 2 (02)
+2019-09-29 12:54:08,307 - root - DEBUG - 		4 (20): 10 (0A)
+2019-09-29 12:54:08,307 - root - DEBUG - 	11 bytes
+2019-09-29 12:54:08,307 - root - DEBUG - 23 bytes
+2019-09-29 12:54:08,307 - root - DEBUG - 2 (12):
+2019-09-29 12:54:08,307 - root - DEBUG - 	1 (0A):
+2019-09-29 12:54:08,307 - root - DEBUG - 		1 (08): 188 (BC)
+2019-09-29 12:54:08,307 - root - DEBUG - 		2 (10): 85 (55)
+2019-09-29 12:54:08,307 - root - DEBUG - 		3 (18): 2 (02)
+2019-09-29 12:54:08,307 - root - DEBUG - 		4 (20): 10 (0A)
+2019-09-29 12:54:08,307 - root - DEBUG - 	11 bytes
+2019-09-29 12:54:08,307 - root - DEBUG - 	2 (12):
+2019-09-29 12:54:08,307 - root - DEBUG - 		1 (08): 223 (DF)
+2019-09-29 12:54:08,307 - root - DEBUG - 		2 (10): 85 (55)
+2019-09-29 12:54:08,307 - root - DEBUG - 		3 (18): 2 (02)
+2019-09-29 12:54:08,307 - root - DEBUG - 		4 (20): 10 (0A)
+2019-09-29 12:54:08,307 - root - DEBUG - 	11 bytes
+2019-09-29 12:54:08,307 - root - DEBUG - 24 bytes
+2019-09-29 12:54:08,307 - root - DEBUG - Parameter: 4
+2019-09-29 12:54:08,307 - root - DEBUG - 2 (12):
+2019-09-29 12:54:08,307 - root - DEBUG - 	1 (08): 70 (46)
+2019-09-29 12:54:08,307 - root - DEBUG - 	2 (10): 179 (B3)
+2019-09-29 12:54:08,307 - root - DEBUG - 	3 (18): 134 (86)
+2019-09-29 12:54:08,308 - root - DEBUG - 	4 (20): 190 (BE)
+2019-09-29 12:54:08,308 - root - DEBUG - 	5 (28): 24 (18)
+2019-09-29 12:54:08,308 - root - DEBUG - 	6 (30): 0 (00)
+2019-09-29 12:54:08,308 - root - DEBUG - 	7 (38): 12 (0C)
+2019-09-29 12:54:08,308 - root - DEBUG - 	8 (40): 10 (0A)
+2019-09-29 12:54:08,308 - root - DEBUG - 21 bytes
+2019-09-29 12:54:08,308 - root - DEBUG - 3 (1A):
+2019-09-29 12:54:08,308 - root - DEBUG - 	1 (08): 77 (4D)
+2019-09-29 12:54:08,308 - root - DEBUG - 	2 (10): 157 (9D)
+2019-09-29 12:54:08,308 - root - DEBUG - 	3 (18): 126 (7E)
+2019-09-29 12:54:08,308 - root - DEBUG - 	4 (20): 170 (AA)
+2019-09-29 12:54:08,308 - root - DEBUG - 	5 (28): 24 (18)
+2019-09-29 12:54:08,308 - root - DEBUG - 	6 (30): 0 (00)
+2019-09-29 12:54:08,308 - root - DEBUG - 	7 (38): 22 (16)
+2019-09-29 12:54:08,308 - root - DEBUG - 	8 (40): 10 (0A)
+2019-09-29 12:54:08,308 - root - DEBUG - 20 bytes
+2019-09-29 12:54:08,308 - root - DEBUG - 4 (22):
+2019-09-29 12:54:08,308 - root - DEBUG - 	1 (0A):
+2019-09-29 12:54:08,308 - root - DEBUG - 		1 (08): 154 (9A)
+2019-09-29 12:54:08,308 - root - DEBUG - 		2 (10): 235 (EB)
+2019-09-29 12:54:08,308 - root - DEBUG - 		3 (18): 205 (CD)
+2019-09-29 12:54:08,308 - root - DEBUG - 		4 (20): 246 (F6)
+2019-09-29 12:54:08,308 - root - DEBUG - 		5 (28): 24 (18)
+2019-09-29 12:54:08,308 - root - DEBUG - 		6 (30): 0 (00)
+2019-09-29 12:54:08,309 - root - DEBUG - 		7 (38): 12 (0C)
+2019-09-29 12:54:08,309 - root - DEBUG - 		8 (40): 10 (0A)
+2019-09-29 12:54:08,309 - root - DEBUG - 	22 bytes
+2019-09-29 12:54:08,309 - root - DEBUG - 	2 (10): 32 (20)
+2019-09-29 12:54:08,309 - root - DEBUG - 	3 (18): 33 (21)
+2019-09-29 12:54:08,309 - root - DEBUG - 28 bytes
+2019-09-29 12:54:08,309 - root - DEBUG - 5 (2A):
+2019-09-29 12:54:08,309 - root - DEBUG - 	1 (0A):
+2019-09-29 12:54:08,309 - root - DEBUG - 		1 (08): 148 (94)
+2019-09-29 12:54:08,309 - root - DEBUG - 		2 (10): 256 (100)
+2019-09-29 12:54:08,309 - root - DEBUG - 		3 (18): 212 (D4)
+2019-09-29 12:54:08,309 - root - DEBUG - 		4 (20): 269 (10D)
+2019-09-29 12:54:08,309 - root - DEBUG - 		5 (28): 24 (18)
+2019-09-29 12:54:08,309 - root - DEBUG - 		6 (30): 0 (00)
+2019-09-29 12:54:08,309 - root - DEBUG - 		7 (38): 22 (16)
+2019-09-29 12:54:08,309 - root - DEBUG - 		8 (40): 10 (0A)
+2019-09-29 12:54:08,309 - root - DEBUG - 	22 bytes
+2019-09-29 12:54:08,309 - root - DEBUG - 24 bytes
+2019-09-29 12:54:08,309 - root - DEBUG - Parameter: 5
+2019-09-29 12:54:08,309 - root - DEBUG - 1 (0A):
+2019-09-29 12:54:08,309 - root - DEBUG - 	2 (12):
+2019-09-29 12:54:08,309 - root - DEBUG - 		1 (0A):
+2019-09-29 12:54:08,309 - root - DEBUG - 			1 (08): 231 (E7)
+2019-09-29 12:54:08,309 - root - DEBUG - 			2 (10): 172 (AC)
+2019-09-29 12:54:08,310 - root - DEBUG - 			3 (18): 283 (11B)
+2019-09-29 12:54:08,310 - root - DEBUG - 			4 (20): 186 (BA)
+2019-09-29 12:54:08,310 - root - DEBUG - 			5 (28): 24 (18)
+2019-09-29 12:54:08,310 - root - DEBUG - 			6 (30): 0 (00)
+2019-09-29 12:54:08,310 - root - DEBUG - 			7 (38): 22 (16)
+2019-09-29 12:54:08,310 - root - DEBUG - 			8 (40): 10 (0A)
+2019-09-29 12:54:08,310 - root - DEBUG - 		22 bytes
+2019-09-29 12:54:08,310 - root - DEBUG - 		2 (10): 34 (22)
+2019-09-29 12:54:08,310 - root - DEBUG - 	26 bytes
+2019-09-29 12:54:08,310 - root - DEBUG - 	3 (18): 1 (01)
+2019-09-29 12:54:08,310 - root - DEBUG - 	4 (20): 1 (01)
+2019-09-29 12:54:08,310 - root - DEBUG - 32 bytes
+2019-09-29 12:54:08,310 - root - DEBUG - 2 (12):
+2019-09-29 12:54:08,310 - root - DEBUG - 	1 (08): 211 (D3)
+2019-09-29 12:54:08,310 - root - DEBUG - 	2 (10): 134 (86)
+2019-09-29 12:54:08,310 - root - DEBUG - 	3 (18): 35 (23)
+2019-09-29 12:54:08,310 - root - DEBUG - 	4 (20): 7 (07)
+2019-09-29 12:54:08,310 - root - DEBUG - 12 bytes
+2019-09-29 12:54:08,310 - root - DEBUG - Parameter: 7
+2019-09-29 12:54:08,310 - root - DEBUG - 3 (1A):
+2019-09-29 12:54:08,310 - root - DEBUG - 	1 (08): 180 (B4)
+2019-09-29 12:54:08,310 - root - DEBUG - 	2 (10): 257 (101)
+2019-09-29 12:54:08,310 - root - DEBUG - 	3 (18): 36 (24)
+2019-09-29 12:54:08,311 - root - DEBUG - 	4 (20): 36 (24)
+2019-09-29 12:54:08,311 - root - DEBUG - 	5 (28): 202 (CA)
+2019-09-29 12:54:08,311 - root - DEBUG - 	6 (30): 338 (152)
+2019-09-29 12:54:08,311 - root - DEBUG - 	7 (38): 5 (05)
+2019-09-29 12:54:08,311 - root - DEBUG - 	8 (40): 367585 (59BE1)
+2019-09-29 12:54:08,311 - root - DEBUG - 	9 (48): 0 (00)
+2019-09-29 12:54:08,311 - root - DEBUG - 26 bytes
+2019-09-29 12:54:08,311 - root - DEBUG - Parameter: 8
+2019-09-29 12:54:08,311 - root - DEBUG - 1 (0A):
+2019-09-29 12:54:08,311 - root - DEBUG - 	1 (0A):
+2019-09-29 12:54:08,311 - root - DEBUG - 		1 (08): 201 (C9)
+2019-09-29 12:54:08,311 - root - DEBUG - 		2 (10): 65 (41)
+2019-09-29 12:54:08,311 - root - DEBUG - 	7 bytes
+2019-09-29 12:54:08,311 - root - DEBUG - 	2 (10): 42 (2A)
+2019-09-29 12:54:08,311 - root - DEBUG - 11 bytes
+2019-09-29 12:54:08,311 - root - DEBUG - 3 (1A):
+2019-09-29 12:54:08,311 - root - DEBUG - 	1 (0A):
+2019-09-29 12:54:08,311 - root - DEBUG - 		1 (08): 147 (93)
+2019-09-29 12:54:08,311 - root - DEBUG - 		2 (10): 65 (41)
+2019-09-29 12:54:08,311 - root - DEBUG - 	7 bytes
+2019-09-29 12:54:08,311 - root - DEBUG - 	2 (10): 43 (2B)
+2019-09-29 12:54:08,311 - root - DEBUG - 11 bytes
+2019-09-29 12:54:08,311 - root - DEBUG - 4 (22):
+2019-09-29 12:54:08,311 - root - DEBUG - 	1 (0A):
+2019-09-29 12:54:08,312 - root - DEBUG - 		1 (08): 175 (AF)
+2019-09-29 12:54:08,312 - root - DEBUG - 		2 (10): 64 (40)
+2019-09-29 12:54:08,312 - root - DEBUG - 	7 bytes
+2019-09-29 12:54:08,312 - root - DEBUG - 	2 (10): 44 (2C)
+2019-09-29 12:54:08,312 - root - DEBUG - 11 bytes
+2019-09-29 12:54:08,312 - root - DEBUG - Parameter: 9
+2019-09-29 12:54:08,312 - root - DEBUG - 1 (0A):
+2019-09-29 12:54:08,312 - root - DEBUG - 	1 (08): 218 (DA)
+2019-09-29 12:54:08,312 - root - DEBUG - 	2 (10): 245 (F5)
+2019-09-29 12:54:08,312 - root - DEBUG - 	3 (18): 245 (F5)
+2019-09-29 12:54:08,312 - root - DEBUG - 	4 (20): 256 (100)
+2019-09-29 12:54:08,312 - root - DEBUG - 	5 (28): 20 (14)
+2019-09-29 12:54:08,312 - root - DEBUG - 	6 (30): 0 (00)
+2019-09-29 12:54:08,312 - root - DEBUG - 	7 (38): 12 (0C)
+2019-09-29 12:54:08,312 - root - DEBUG - 	8 (40): 10 (0A)
+2019-09-29 12:54:08,312 - root - DEBUG - 22 bytes
+2019-09-29 12:54:08,312 - root - DEBUG - 2 (12):
+2019-09-29 12:54:08,312 - root - DEBUG - 	1 (08): 180 (B4)
+2019-09-29 12:54:08,312 - root - DEBUG - 	2 (10): 219 (DB)
+2019-09-29 12:54:08,312 - root - DEBUG - 	3 (18): 45 (2D)
+2019-09-29 12:54:08,312 - root - DEBUG - 	4 (20): 11 (0B)
+2019-09-29 12:54:08,312 - root - DEBUG - 12 bytes
+2019-09-29 12:54:08,312 - root - DEBUG - Parameter: 10
+2019-09-29 12:54:08,312 - root - DEBUG - 1 (0A):
+2019-09-29 12:54:08,313 - root - DEBUG - 	1 (08): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 	2 (10): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 	3 (1A):
+2019-09-29 12:54:08,313 - root - DEBUG - 		1 (08): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 		2 (10): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 	6 bytes
+2019-09-29 12:54:08,313 - root - DEBUG - 	4 (22):
+2019-09-29 12:54:08,313 - root - DEBUG - 		1 (08): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 		2 (10): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 	6 bytes
+2019-09-29 12:54:08,313 - root - DEBUG - 	5 (2A):
+2019-09-29 12:54:08,313 - root - DEBUG - 		1 (08): 17 (11)
+2019-09-29 12:54:08,313 - root - DEBUG - 		2 (10): 126 (7E)
+2019-09-29 12:54:08,313 - root - DEBUG - 		3 (18): 56 (38)
+2019-09-29 12:54:08,313 - root - DEBUG - 	8 bytes
+2019-09-29 12:54:08,313 - root - DEBUG - 26 bytes
+2019-09-29 12:54:08,313 - root - DEBUG - 2 (12):
+2019-09-29 12:54:08,313 - root - DEBUG - 	1 (08): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 	2 (10): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 	3 (1A):
+2019-09-29 12:54:08,313 - root - DEBUG - 		1 (08): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 		2 (10): 0 (00)
+2019-09-29 12:54:08,313 - root - DEBUG - 	6 bytes
+2019-09-29 12:54:08,313 - root - DEBUG - 	4 (22):
+2019-09-29 12:54:08,314 - root - DEBUG - 		1 (08): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 		2 (10): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 	6 bytes
+2019-09-29 12:54:08,314 - root - DEBUG - 	5 (2A):
+2019-09-29 12:54:08,314 - root - DEBUG - 		1 (08): 16 (10)
+2019-09-29 12:54:08,314 - root - DEBUG - 		2 (10): 153 (99)
+2019-09-29 12:54:08,314 - root - DEBUG - 		3 (18): 57 (39)
+2019-09-29 12:54:08,314 - root - DEBUG - 	9 bytes
+2019-09-29 12:54:08,314 - root - DEBUG - 27 bytes
+2019-09-29 12:54:08,314 - root - DEBUG - 3 (1A):
+2019-09-29 12:54:08,314 - root - DEBUG - 	1 (08): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 	2 (10): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 	3 (1A):
+2019-09-29 12:54:08,314 - root - DEBUG - 		1 (08): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 		2 (10): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 	6 bytes
+2019-09-29 12:54:08,314 - root - DEBUG - 	4 (22):
+2019-09-29 12:54:08,314 - root - DEBUG - 		1 (08): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 		2 (10): 0 (00)
+2019-09-29 12:54:08,314 - root - DEBUG - 	6 bytes
+2019-09-29 12:54:08,314 - root - DEBUG - 	5 (2A):
+2019-09-29 12:54:08,314 - root - DEBUG - 		1 (08): 12 (0C)
+2019-09-29 12:54:08,314 - root - DEBUG - 		2 (10): 166 (A6)
+2019-09-29 12:54:08,314 - root - DEBUG - 		3 (18): 58 (3A)
+2019-09-29 12:54:08,315 - root - DEBUG - 	9 bytes
+2019-09-29 12:54:08,315 - root - DEBUG - 27 bytes
+2019-09-29 12:54:08,315 - root - DEBUG - Encoding offsets and lengths...
+2019-09-29 12:54:08,315 - root - DEBUG - 1 (0A):
+2019-09-29 12:54:08,315 - root - DEBUG - 	1 (08): 373 (175)
+2019-09-29 12:54:08,315 - root - DEBUG - 	2 (10): 59 (3B)
+2019-09-29 12:54:08,315 - root - DEBUG - 7 bytes
+2019-09-29 12:54:08,315 - root - DEBUG - 2 (12):
+2019-09-29 12:54:08,315 - root - DEBUG - 	1 (08): 0 (00)
+2019-09-29 12:54:08,315 - root - DEBUG - 	2 (10): 16 (10)
+2019-09-29 12:54:08,315 - root - DEBUG - 6 bytes
+2019-09-29 12:54:08,315 - root - DEBUG - 3 (1A):
+2019-09-29 12:54:08,315 - root - DEBUG - 	1 (08): 16 (10)
+2019-09-29 12:54:08,315 - root - DEBUG - 	2 (10): 47 (2F)
+2019-09-29 12:54:08,315 - root - DEBUG - 6 bytes
+2019-09-29 12:54:08,315 - root - DEBUG - 4 (22):
+2019-09-29 12:54:08,315 - root - DEBUG - 	1 (08): 63 (3F)
+2019-09-29 12:54:08,315 - root - DEBUG - 	2 (10): 93 (5D)
+2019-09-29 12:54:08,315 - root - DEBUG - 6 bytes
+2019-09-29 12:54:08,315 - root - DEBUG - 5 (2A):
+2019-09-29 12:54:08,315 - root - DEBUG - 	1 (08): 156 (9C)
+2019-09-29 12:54:08,315 - root - DEBUG - 	2 (10): 44 (2C)
+2019-09-29 12:54:08,315 - root - DEBUG - 7 bytes
+2019-09-29 12:54:08,316 - root - DEBUG - 7 (3A):
+2019-09-29 12:54:08,316 - root - DEBUG - 	1 (08): 200 (C8)
+2019-09-29 12:54:08,316 - root - DEBUG - 	2 (10): 26 (1A)
+2019-09-29 12:54:08,316 - root - DEBUG - 7 bytes
+2019-09-29 12:54:08,316 - root - DEBUG - 8 (42):
+2019-09-29 12:54:08,316 - root - DEBUG - 	1 (08): 226 (E2)
+2019-09-29 12:54:08,316 - root - DEBUG - 	2 (10): 33 (21)
+2019-09-29 12:54:08,316 - root - DEBUG - 7 bytes
+2019-09-29 12:54:08,316 - root - DEBUG - 9 (4A):
+2019-09-29 12:54:08,316 - root - DEBUG - 	1 (08): 259 (103)
+2019-09-29 12:54:08,316 - root - DEBUG - 	2 (10): 34 (22)
+2019-09-29 12:54:08,316 - root - DEBUG - 7 bytes
+2019-09-29 12:54:08,316 - root - DEBUG - 10 (52):
+2019-09-29 12:54:08,316 - root - DEBUG - 	1 (08): 293 (125)
+2019-09-29 12:54:08,316 - root - DEBUG - 	2 (10): 80 (50)
+2019-09-29 12:54:08,316 - root - DEBUG - 7 bytes
+2019-09-29 12:54:08,316 - root - DEBUG - Writing header...
+2019-09-29 12:54:08,316 - root - DEBUG - Writing parameters offsets and lengths...
+2019-09-29 12:54:08,317 - root - DEBUG - Writing parameters...
+2019-09-29 12:54:08,317 - root - DEBUG - Writing images...
+2019-09-29 12:54:08,317 - root - DEBUG - Resource 0 offset is 3...
+2019-09-29 12:54:08,317 - root - DEBUG - Encoding resource 0...
+2019-09-29 12:54:08,317 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,317 - root - DEBUG - Width: 360, Height: 360, RowLength: 1440
+2019-09-29 12:54:08,317 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,317 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,458 - root - DEBUG - Resource 1 offset is 518427...
+2019-09-29 12:54:08,458 - root - DEBUG - Encoding resource 1...
+2019-09-29 12:54:08,458 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,458 - root - DEBUG - Width: 210, Height: 210, RowLength: 840
+2019-09-29 12:54:08,458 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,458 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,508 - root - DEBUG - Resource 2 offset is 694851...
+2019-09-29 12:54:08,508 - root - DEBUG - Encoding resource 2...
+2019-09-29 12:54:08,509 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,509 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,509 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,509 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,510 - root - DEBUG - Resource 3 offset is 699555...
+2019-09-29 12:54:08,510 - root - DEBUG - Encoding resource 3...
+2019-09-29 12:54:08,510 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,510 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,510 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,510 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,512 - root - DEBUG - Resource 4 offset is 704259...
+2019-09-29 12:54:08,512 - root - DEBUG - Encoding resource 4...
+2019-09-29 12:54:08,512 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,512 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,512 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,512 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,513 - root - DEBUG - Resource 5 offset is 708963...
+2019-09-29 12:54:08,513 - root - DEBUG - Encoding resource 5...
+2019-09-29 12:54:08,513 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,514 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,514 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,514 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,515 - root - DEBUG - Resource 6 offset is 713667...
+2019-09-29 12:54:08,515 - root - DEBUG - Encoding resource 6...
+2019-09-29 12:54:08,515 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,515 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,515 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,515 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,517 - root - DEBUG - Resource 7 offset is 718371...
+2019-09-29 12:54:08,517 - root - DEBUG - Encoding resource 7...
+2019-09-29 12:54:08,517 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,517 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,517 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,517 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,518 - root - DEBUG - Resource 8 offset is 723075...
+2019-09-29 12:54:08,518 - root - DEBUG - Encoding resource 8...
+2019-09-29 12:54:08,518 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,518 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,518 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,518 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,520 - root - DEBUG - Resource 9 offset is 727779...
+2019-09-29 12:54:08,520 - root - DEBUG - Encoding resource 9...
+2019-09-29 12:54:08,520 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,520 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,520 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,520 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,521 - root - DEBUG - Resource 10 offset is 732483...
+2019-09-29 12:54:08,522 - root - DEBUG - Encoding resource 10...
+2019-09-29 12:54:08,522 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,522 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,522 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,522 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,523 - root - DEBUG - Resource 11 offset is 737187...
+2019-09-29 12:54:08,523 - root - DEBUG - Encoding resource 11...
+2019-09-29 12:54:08,523 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,523 - root - DEBUG - Width: 30, Height: 39, RowLength: 120
+2019-09-29 12:54:08,523 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,523 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,525 - root - DEBUG - Resource 12 offset is 741891...
+2019-09-29 12:54:08,525 - root - DEBUG - Encoding resource 12...
+2019-09-29 12:54:08,525 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,525 - root - DEBUG - Width: 10, Height: 11, RowLength: 40
+2019-09-29 12:54:08,525 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,525 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,525 - root - DEBUG - Resource 13 offset is 742355...
+2019-09-29 12:54:08,525 - root - DEBUG - Encoding resource 13...
+2019-09-29 12:54:08,525 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,525 - root - DEBUG - Width: 5, Height: 11, RowLength: 20
+2019-09-29 12:54:08,525 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,525 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,525 - root - DEBUG - Resource 14 offset is 742599...
+2019-09-29 12:54:08,526 - root - DEBUG - Encoding resource 14...
+2019-09-29 12:54:08,526 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,526 - root - DEBUG - Width: 8, Height: 11, RowLength: 32
+2019-09-29 12:54:08,526 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,526 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,526 - root - DEBUG - Resource 15 offset is 742975...
+2019-09-29 12:54:08,526 - root - DEBUG - Encoding resource 15...
+2019-09-29 12:54:08,526 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,526 - root - DEBUG - Width: 8, Height: 11, RowLength: 32
+2019-09-29 12:54:08,526 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,526 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,526 - root - DEBUG - Resource 16 offset is 743351...
+2019-09-29 12:54:08,526 - root - DEBUG - Encoding resource 16...
+2019-09-29 12:54:08,526 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,526 - root - DEBUG - Width: 10, Height: 11, RowLength: 40
+2019-09-29 12:54:08,526 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,526 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,527 - root - DEBUG - Resource 17 offset is 743815...
+2019-09-29 12:54:08,527 - root - DEBUG - Encoding resource 17...
+2019-09-29 12:54:08,527 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,527 - root - DEBUG - Width: 8, Height: 11, RowLength: 32
+2019-09-29 12:54:08,527 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,527 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,527 - root - DEBUG - Resource 18 offset is 744191...
+2019-09-29 12:54:08,527 - root - DEBUG - Encoding resource 18...
+2019-09-29 12:54:08,527 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,527 - root - DEBUG - Width: 8, Height: 11, RowLength: 32
+2019-09-29 12:54:08,527 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,527 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,527 - root - DEBUG - Resource 19 offset is 744567...
+2019-09-29 12:54:08,527 - root - DEBUG - Encoding resource 19...
+2019-09-29 12:54:08,527 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,527 - root - DEBUG - Width: 8, Height: 11, RowLength: 32
+2019-09-29 12:54:08,527 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,527 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,528 - root - DEBUG - Resource 20 offset is 744943...
+2019-09-29 12:54:08,528 - root - DEBUG - Encoding resource 20...
+2019-09-29 12:54:08,528 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,528 - root - DEBUG - Width: 8, Height: 11, RowLength: 32
+2019-09-29 12:54:08,528 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,528 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,528 - root - DEBUG - Resource 21 offset is 745319...
+2019-09-29 12:54:08,528 - root - DEBUG - Encoding resource 21...
+2019-09-29 12:54:08,528 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,528 - root - DEBUG - Width: 8, Height: 11, RowLength: 32
+2019-09-29 12:54:08,528 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,528 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,528 - root - DEBUG - Resource 22 offset is 745695...
+2019-09-29 12:54:08,528 - root - DEBUG - Encoding resource 22...
+2019-09-29 12:54:08,528 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,528 - root - DEBUG - Width: 12, Height: 14, RowLength: 48
+2019-09-29 12:54:08,528 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,528 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,529 - root - DEBUG - Resource 23 offset is 746391...
+2019-09-29 12:54:08,529 - root - DEBUG - Encoding resource 23...
+2019-09-29 12:54:08,529 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,529 - root - DEBUG - Width: 6, Height: 14, RowLength: 24
+2019-09-29 12:54:08,529 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,529 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,529 - root - DEBUG - Resource 24 offset is 746751...
+2019-09-29 12:54:08,529 - root - DEBUG - Encoding resource 24...
+2019-09-29 12:54:08,529 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,529 - root - DEBUG - Width: 10, Height: 14, RowLength: 40
+2019-09-29 12:54:08,529 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,529 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,529 - root - DEBUG - Resource 25 offset is 747335...
+2019-09-29 12:54:08,530 - root - DEBUG - Encoding resource 25...
+2019-09-29 12:54:08,530 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,530 - root - DEBUG - Width: 10, Height: 14, RowLength: 40
+2019-09-29 12:54:08,530 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,530 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,530 - root - DEBUG - Resource 26 offset is 747919...
+2019-09-29 12:54:08,530 - root - DEBUG - Encoding resource 26...
+2019-09-29 12:54:08,530 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,530 - root - DEBUG - Width: 11, Height: 14, RowLength: 44
+2019-09-29 12:54:08,530 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,530 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,530 - root - DEBUG - Resource 27 offset is 748559...
+2019-09-29 12:54:08,530 - root - DEBUG - Encoding resource 27...
+2019-09-29 12:54:08,530 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,530 - root - DEBUG - Width: 10, Height: 14, RowLength: 40
+2019-09-29 12:54:08,531 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,531 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,531 - root - DEBUG - Resource 28 offset is 749143...
+2019-09-29 12:54:08,531 - root - DEBUG - Encoding resource 28...
+2019-09-29 12:54:08,531 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,531 - root - DEBUG - Width: 11, Height: 14, RowLength: 44
+2019-09-29 12:54:08,531 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,531 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,531 - root - DEBUG - Resource 29 offset is 749783...
+2019-09-29 12:54:08,531 - root - DEBUG - Encoding resource 29...
+2019-09-29 12:54:08,531 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,531 - root - DEBUG - Width: 10, Height: 14, RowLength: 40
+2019-09-29 12:54:08,531 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,531 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,532 - root - DEBUG - Resource 30 offset is 750367...
+2019-09-29 12:54:08,532 - root - DEBUG - Encoding resource 30...
+2019-09-29 12:54:08,532 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,532 - root - DEBUG - Width: 11, Height: 14, RowLength: 44
+2019-09-29 12:54:08,532 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,532 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,532 - root - DEBUG - Resource 31 offset is 751007...
+2019-09-29 12:54:08,532 - root - DEBUG - Encoding resource 31...
+2019-09-29 12:54:08,532 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,532 - root - DEBUG - Width: 11, Height: 14, RowLength: 44
+2019-09-29 12:54:08,532 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,532 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,532 - root - DEBUG - Resource 32 offset is 751647...
+2019-09-29 12:54:08,532 - root - DEBUG - Encoding resource 32...
+2019-09-29 12:54:08,533 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,533 - root - DEBUG - Width: 3, Height: 4, RowLength: 12
+2019-09-29 12:54:08,533 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,533 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,533 - root - DEBUG - Resource 33 offset is 751719...
+2019-09-29 12:54:08,533 - root - DEBUG - Encoding resource 33...
+2019-09-29 12:54:08,533 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,533 - root - DEBUG - Width: 3, Height: 11, RowLength: 12
+2019-09-29 12:54:08,533 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,533 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,533 - root - DEBUG - Resource 34 offset is 751875...
+2019-09-29 12:54:08,533 - root - DEBUG - Encoding resource 34...
+2019-09-29 12:54:08,533 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,533 - root - DEBUG - Width: 6, Height: 14, RowLength: 24
+2019-09-29 12:54:08,533 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,533 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,533 - root - DEBUG - Resource 35 offset is 752235...
+2019-09-29 12:54:08,533 - root - DEBUG - Encoding resource 35...
+2019-09-29 12:54:08,533 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,533 - root - DEBUG - Width: 93, Height: 93, RowLength: 372
+2019-09-29 12:54:08,533 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,534 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,543 - root - DEBUG - Resource 36 offset is 786855...
+2019-09-29 12:54:08,543 - root - DEBUG - Encoding resource 36...
+2019-09-29 12:54:08,543 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,543 - root - DEBUG - Width: 93, Height: 93, RowLength: 372
+2019-09-29 12:54:08,543 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,544 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,554 - root - DEBUG - Resource 37 offset is 821475...
+2019-09-29 12:54:08,554 - root - DEBUG - Encoding resource 37...
+2019-09-29 12:54:08,554 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,554 - root - DEBUG - Width: 93, Height: 93, RowLength: 372
+2019-09-29 12:54:08,554 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,554 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,563 - root - DEBUG - Resource 38 offset is 856095...
+2019-09-29 12:54:08,563 - root - DEBUG - Encoding resource 38...
+2019-09-29 12:54:08,564 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,564 - root - DEBUG - Width: 93, Height: 93, RowLength: 372
+2019-09-29 12:54:08,564 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,564 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,574 - root - DEBUG - Resource 39 offset is 890715...
+2019-09-29 12:54:08,574 - root - DEBUG - Encoding resource 39...
+2019-09-29 12:54:08,574 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,574 - root - DEBUG - Width: 93, Height: 93, RowLength: 372
+2019-09-29 12:54:08,574 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,574 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,583 - root - DEBUG - Resource 40 offset is 925335...
+2019-09-29 12:54:08,583 - root - DEBUG - Encoding resource 40...
+2019-09-29 12:54:08,583 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,583 - root - DEBUG - Width: 93, Height: 93, RowLength: 372
+2019-09-29 12:54:08,583 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,583 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,597 - root - DEBUG - Resource 41 offset is 959955...
+2019-09-29 12:54:08,597 - root - DEBUG - Encoding resource 41...
+2019-09-29 12:54:08,597 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,597 - root - DEBUG - Width: 93, Height: 93, RowLength: 372
+2019-09-29 12:54:08,597 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,597 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,609 - root - DEBUG - Resource 42 offset is 994575...
+2019-09-29 12:54:08,609 - root - DEBUG - Encoding resource 42...
+2019-09-29 12:54:08,609 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,609 - root - DEBUG - Width: 11, Height: 11, RowLength: 44
+2019-09-29 12:54:08,609 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,609 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,609 - root - DEBUG - Resource 43 offset is 995083...
+2019-09-29 12:54:08,609 - root - DEBUG - Encoding resource 43...
+2019-09-29 12:54:08,609 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,610 - root - DEBUG - Width: 11, Height: 11, RowLength: 44
+2019-09-29 12:54:08,610 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,610 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,610 - root - DEBUG - Resource 44 offset is 995591...
+2019-09-29 12:54:08,610 - root - DEBUG - Encoding resource 44...
+2019-09-29 12:54:08,610 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,610 - root - DEBUG - Width: 10, Height: 13, RowLength: 40
+2019-09-29 12:54:08,610 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,610 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,611 - root - DEBUG - Resource 45 offset is 996135...
+2019-09-29 12:54:08,611 - root - DEBUG - Encoding resource 45...
+2019-09-29 12:54:08,611 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,611 - root - DEBUG - Width: 3, Height: 4, RowLength: 12
+2019-09-29 12:54:08,611 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,611 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,611 - root - DEBUG - Resource 46 offset is 996207...
+2019-09-29 12:54:08,611 - root - DEBUG - Encoding resource 46...
+2019-09-29 12:54:08,611 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,611 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,611 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,612 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,617 - root - DEBUG - Resource 47 offset is 1007783...
+2019-09-29 12:54:08,618 - root - DEBUG - Encoding resource 47...
+2019-09-29 12:54:08,618 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,618 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,618 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,618 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,623 - root - DEBUG - Resource 48 offset is 1019359...
+2019-09-29 12:54:08,623 - root - DEBUG - Encoding resource 48...
+2019-09-29 12:54:08,623 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,623 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,624 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,624 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,628 - root - DEBUG - Resource 49 offset is 1030935...
+2019-09-29 12:54:08,628 - root - DEBUG - Encoding resource 49...
+2019-09-29 12:54:08,628 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,628 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,628 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,628 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,632 - root - DEBUG - Resource 50 offset is 1042511...
+2019-09-29 12:54:08,632 - root - DEBUG - Encoding resource 50...
+2019-09-29 12:54:08,632 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,632 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,632 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,632 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,635 - root - DEBUG - Resource 51 offset is 1054087...
+2019-09-29 12:54:08,635 - root - DEBUG - Encoding resource 51...
+2019-09-29 12:54:08,635 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,636 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,636 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,636 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,639 - root - DEBUG - Resource 52 offset is 1065663...
+2019-09-29 12:54:08,639 - root - DEBUG - Encoding resource 52...
+2019-09-29 12:54:08,639 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,639 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,639 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,639 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,642 - root - DEBUG - Resource 53 offset is 1077239...
+2019-09-29 12:54:08,642 - root - DEBUG - Encoding resource 53...
+2019-09-29 12:54:08,642 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,642 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,642 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,642 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,646 - root - DEBUG - Resource 54 offset is 1088815...
+2019-09-29 12:54:08,646 - root - DEBUG - Encoding resource 54...
+2019-09-29 12:54:08,646 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,646 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,646 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,646 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,649 - root - DEBUG - Resource 55 offset is 1100391...
+2019-09-29 12:54:08,649 - root - DEBUG - Encoding resource 55...
+2019-09-29 12:54:08,649 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,649 - root - DEBUG - Width: 38, Height: 76, RowLength: 152
+2019-09-29 12:54:08,649 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,649 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,653 - root - DEBUG - Resource 56 offset is 1111967...
+2019-09-29 12:54:08,653 - root - DEBUG - Encoding resource 56...
+2019-09-29 12:54:08,653 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,653 - root - DEBUG - Width: 34, Height: 141, RowLength: 136
+2019-09-29 12:54:08,653 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,653 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,658 - root - DEBUG - Resource 57 offset is 1131167...
+2019-09-29 12:54:08,658 - root - DEBUG - Encoding resource 57...
+2019-09-29 12:54:08,658 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,658 - root - DEBUG - Width: 33, Height: 171, RowLength: 132
+2019-09-29 12:54:08,658 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,658 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,666 - root - DEBUG - Resource 58 offset is 1153763...
+2019-09-29 12:54:08,666 - root - DEBUG - Encoding resource 58...
+2019-09-29 12:54:08,666 - root - DEBUG - Writing image header...
+2019-09-29 12:54:08,666 - root - DEBUG - Width: 25, Height: 188, RowLength: 100
+2019-09-29 12:54:08,666 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2019-09-29 12:54:08,666 - root - DEBUG - Writing image...
+2019-09-29 12:54:08,672 - root - DEBUG - Writing resources offsets table
+2019-09-29 12:54:08,672 - root - DEBUG - Writing padding...
+2019-09-29 12:54:08,672 - root - DEBUG - Writing resources
