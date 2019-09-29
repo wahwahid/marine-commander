@@ -1,0 +1,224 @@
+{
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 136,
+        "Y": 108,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 178,
+        "Y": 108,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 238,
+        "Y": 108,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 282,
+        "Y": 108,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Activity": {
+    "Calories": {
+      "TopLeftX": 89,
+      "TopLeftY": 226,
+      "BottomRightX": 169,
+      "BottomRightY": 240,
+      "Alignment": "TopCenter",
+      "Spacing": 0,
+      "ImageIndex": 12,
+      "ImagesCount": 10
+    },
+    "Pulse": {
+      "TopLeftX": 98,
+      "TopLeftY": 198,
+      "BottomRightX": 160,
+      "BottomRightY": 215,
+      "Alignment": "TopCenter",
+      "Spacing": 0,
+      "ImageIndex": 22,
+      "ImagesCount": 10
+    },
+    "Distance": {
+      "Number": {
+        "TopLeftX": 195,
+        "TopLeftY": 297,
+        "BottomRightX": 259,
+        "BottomRightY": 311,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "ImageIndex": 12,
+        "ImagesCount": 10
+      },
+      "SuffixImageIndex": 32,
+      "DecimalPointImageIndex": 33
+    },
+    "Steps": {
+      "Step": {
+        "TopLeftX": 187,
+        "TopLeftY": 323,
+        "BottomRightX": 268,
+        "BottomRightY": 340,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "ImageIndex": 22,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Date": {
+    "MonthAndDay": {
+      "OneLine": {
+        "Number": {
+          "TopLeftX": 292,
+          "TopLeftY": 218,
+          "BottomRightX": 357,
+          "BottomRightY": 235,
+          "Alignment": "TopCenter",
+          "Spacing": 0,
+          "ImageIndex": 22,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 34
+      },
+      "TwoDigitsMonth": true,
+      "TwoDigitsDay": true
+    },
+    "WeekDay": {
+      "X": 267,
+      "Y": 169,
+      "ImageIndex": 21,
+      "ImagesCount": 21
+    }
+  },
+  "StepsProgress": {
+    "Circle": {
+      "CenterX": 227,
+      "CenterY": 325,
+      "RadiusX": 46,
+      "RadiusY": 46,
+      "StartAngle": 202,
+      "EndAngle": 338,
+      "Width": 5,
+      "Color": "0x00059BE1",
+      "Flatness": 0
+    }
+  },
+  "Status": {
+    "DoNotDisturb": {
+      "Coordinates": {
+        "X": 254,
+        "Y": 83
+      },
+      "ImageIndexOn": 42
+    },
+    "Alarm": {
+      "Coordinates": {
+        "X": 186,
+        "Y": 83
+      },
+      "ImageIndexOn": 43
+    },
+    "Lock": {
+      "Coordinates": {
+        "X": 221,
+        "Y": 81
+      },
+      "ImageIndexOn": 44
+    }
+  },
+  "Battery": {
+    "Text": {
+      "TopLeftX": 276,
+      "TopLeftY": 310,
+      "BottomRightX": 309,
+      "BottomRightY": 324,
+      "Alignment": "TopRight",
+      "Spacing": 0,
+      "ImageIndex": 12,
+      "ImagesCount": 10
+    },
+    "Images": {
+      "X": 227,
+      "Y": 277,
+      "ImageIndex": 45,
+      "ImagesCount": 11
+    }
+  },
+  "AnalogDialFace": {
+    "Hours": {
+      "unknown1": 0,
+      "unknown2": 0,
+      "unknown3": {
+        "X": 0,
+        "Y": 0
+      },
+      "unknown4": {
+        "X": 0,
+        "Y": 0
+      },
+      "CenterImage": {
+        "X": 22,
+        "Y": 159,
+        "ImageIndex": 56
+      }
+    },
+    "Minutes": {
+      "unknown1": 0,
+      "unknown2": 0,
+      "unknown3": {
+        "X": 0,
+        "Y": 0
+      },
+      "unknown4": {
+        "X": 0,
+        "Y": 0
+      },
+      "CenterImage": {
+        "X": 21,
+        "Y": 193,
+        "ImageIndex": 57
+      }
+    },
+    "Seconds": {
+      "unknown1": 0,
+      "unknown2": 0,
+      "unknown3": {
+        "X": 0,
+        "Y": 0
+      },
+      "unknown4": {
+        "X": 0,
+        "Y": 0
+      },
+      "CenterImage": {
+        "X": 16,
+        "Y": 210,
+        "ImageIndex": 58
+      }
+    }
+  }
+}
